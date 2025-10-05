@@ -1,0 +1,8 @@
+name: telegram-bot
+services:
+  bot:
+    module:
+      type: python
+      command: python app.py
+      requirementsPath: requirements.txt
+      pythonVersion: "3.13"
