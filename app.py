@@ -379,8 +379,7 @@ def load_google_sheets_data():
 
                                     scores[column_name] = {
                                         'value': numeric_value,
-                                        'points': points,
-                                        'description': f'Начислено {points} баллов'
+                                        'points': points
                                     }
                                     total_score += points
 
